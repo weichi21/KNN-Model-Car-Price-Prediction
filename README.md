@@ -4,7 +4,15 @@
 `Dataset` is from 1985 Ward's Automotive Yearbook <br>
 `Available from`: https://archive.ics.uci.edu/dataset/10/automobile
 
+## Here I implemented:
+1. Data Cleansing and Data Transformation
+2. Univariate KNN model with single K-value
+3. Univariate KNN model with multiple K-values (Hyperparameter Tuning)
+4. Multivariate KNN model with single K-Value
+5. Multivariate KNN model with multiple K-Values (Hyperparameter Tuning & K-Fold Cross-Validation)
+   
 ## Conclusion
+- Best Feature Subset: ['city-mpg', 'wheel-base', 'curb-weight', 'highway-mpg', 'peak-rpm'] <br> Best k Value: 1 <br>Best Average Accurcy: 86.43%
 
 ## Future Step
 - With the multivariate KNN hyperparameter tuning, we used `f_regression` scoring function for best feature subset selection. <br>
